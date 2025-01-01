@@ -5,6 +5,7 @@ import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { PortableText } from "next-sanity";
 import { components } from "@/app/components/ui/customcomponent";
+import CommentSection from "@/app/components/ui/comment";
 
 
 export const revalidate = 5;
@@ -80,6 +81,8 @@ console.log(post)
              />                            
             </section>
                </div>
+
+               <CommentSection />
 
                
            <Footer />
