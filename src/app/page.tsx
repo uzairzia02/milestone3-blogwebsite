@@ -2,7 +2,6 @@ import Header from "./components/ui/header";
 import Footer from "./components/ui/footer";
 import BlogCard from "./components/ui/blogcard";
 import { client } from "@/sanity/lib/client";
-import CommentSection from "./components/ui/comment";
 
 
 
